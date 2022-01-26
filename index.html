@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Element Modifier</title>
+  </head>
+
+  <body>
+    <!-- Learning the Naming Convention BEM -->
+    <div class="container">
+      <h1>Naming Convention</h1>
+      <p>for more structured CSS and UI</p>
+      <p>Block represents a single contained block or component</p>
+      <p>Element is a part of a Block and depends on the Block</p>
+      <p>
+        Modifiers to change the behaviour or appereance for a Block or/and
+        Element.
+      </p>
+    </div>
+    <!-- Using the BEM Naming Convention -->
+    <div class="user">
+      <img src="#" alt="#" class="user__photo" />
+      <div class="user__name">Jeffery</div>
+      <!--The button does not depend on the Block-->
+      <button class="button button--primary">View Profile</button>
+    
+    </div>
+
+    <div class="user user--dark-theme">
+      <img src="#" alt="#" class="user__photo" />
+      <div class="user__name">Jeffery</div>
+      <button class="button button--primary">View Profile</button>
+    </div>
+  </body>
+</html>
